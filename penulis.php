@@ -5,6 +5,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+    </style>
 </head>
 <body>
 
@@ -28,13 +31,12 @@
       <main>
 
         <div class="container marketing"  style="padding-top:20px">
-
             <!-- Three columns of text below the carousel -->
             <div class="row" >
               <div class="col-lg-4">
                 <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
         
-                <h2 class="fw-normal">Penulis 1</h2>
+                <h2 class="fw-normal">Penulis </h2>
                 <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
                 <p><a class="btn btn-secondary" href="detailpenulis.php">Lihat detail &raquo;</a></p>
               </div><!-- /.col-lg-4 -->
