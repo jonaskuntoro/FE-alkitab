@@ -12,10 +12,13 @@
     
     /* HOMEPAGE */
 
-    .h-navigation {
-      display: flex;
+    .h-container {
       margin-right: 8%;
       margin-left: 8%;
+    }
+
+    .h-navigation {
+      display: flex;
       justify-content: space-between;
     }
 
@@ -30,6 +33,10 @@
     .h-navigation-arrow:hover, .h-navigation-arrow:active {
       background-color: #2196f3;
       color: white;
+    }
+
+    .h-detailalkitab {
+      margin-top: 3em;
     }
 
     /* HOMEPAGE END */
@@ -75,13 +82,17 @@
                     <option value="Gold">Gold</option>
                 </select>
         </div>
-        <div class="h-navigation">
+        <div class="h-container h-navigation">
           <div class="h-navigation-item">
             <a class="h-navigation-arrow" href=""><i class="bi bi-arrow-left-circle-fill"></i> Prev</a>
           </div>
           <div class="h-navigation-item">
             <a class="h-navigation-arrow" href="">Next <i class="bi bi-arrow-right-circle-fill"></i></a>
           </div>
+        </div>
+        <div class="h-container h-detailalkitab">
+          <h4>Judul Kejadian</h4>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, magnam doloremque hic iusto quaerat voluptatibus optio ullam reiciendis ratione soluta ex laborum maiores ipsa et ipsum maxime explicabo ad aliquam.
         </div>
       </main>
 </body>
